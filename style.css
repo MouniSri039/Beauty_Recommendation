@@ -1,0 +1,132 @@
+/* here are all the colors I chose from coolors.coo which was recomended by sir in the class.
+ I also went for more of a pink theme for aesthetics.
+light blush: #fff0f3 soft pink: #f8c8d4 rose pink: #e88da3 berry: #c45a78 dark plum: #64213b off white: #fffaf9
+*/ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+/* Made a basic page styling */
+body {
+background-color: #fffaf9;
+color: #64213b;
+font-family: Arial, sans-serif;
+line-height: 1.7;
+}
+/* Here is header styling */
+header {
+background-color: #fff0f3;
+text-align: center;
+padding: 55px 20px;
+}
+/* Here is for website name */
+header h1 {
+color: #64213b;
+font-family: Georgia, serif;
+font-size: 48px;
+margin-bottom: 8px;
+}
+/* My header description */
+header p {
+color: #c45a78;
+font-size: 17px;
+}
+/* main page */
+main {
+max-width: 1000px;
+margin: 40px auto;
+padding: 0 25px;
+}
+/* about section layout */
+.about {
+background-color: #fff0f3;
+display: flex;
+align-items: center;
+gap: 45px;
+padding: 40px;
+margin-bottom: 30px;
+border-radius: 20px;
+}
+/* most of text area */
+.about-text {
+flex: 1;
+}
+/* For my section headings */
+h2 {
+color: #64213b;
+font-family: Georgia, serif;
+font-size: 32px;
+margin-bottom: 18px;
+}
+/* paragraph spacing */
+p {
+margin-bottom: 15px;
+}
+/*Fot the image */
+.about-image {
+flex: 1;
+}
+/* skinc image that i added */
+.about-image img {
+width: 100%;
+max-width: 400px;
+border-radius: 20px;
+display: block;
+}
+/* for my motivation section */
+.motivation {
+background-color: #f8c8d4;
+padding: 40px;
+margin-bottom: 30px;
+border-radius: 20px;
+}
+/* social media section my socials only added 2 though  */
+.socials {
+background-color: #fff0f3;
+text-align: center;
+padding: 40px;
+border-radius: 20px;
+}
+/* social media links */
+.social-links {
+display: flex;
+justify-content: center;
+gap: 15px;
+flex-wrap: wrap;
+}
+/* link buttons */
+.social-links a {
+background-color: #e88da3;
+color: white;
+text-decoration: none;
+padding: 10px 22px;
+border-radius: 25px;
+}
+/*Added to  change link color when mouse is over it cause sir mention it in class */
+.social-links a:hover {
+background-color: #c45a78;
+}
+/* footer styling */
+footer {
+background-color: #64213b;
+color: white;
+text-align: center;
+padding: 20px;
+}
+/* removing rhe extra space in footer */
+footer p {
+margin: 0;
+}
+/* basically makehe page work better on smaller screens */
+@media (max-width: 700px) {
+.about {
+    flex-direction: column;
+}
+header h1 {
+    font-size: 38px;
+}
+h2 {
+    font-size: 27px;
+}
+}
