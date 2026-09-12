@@ -1,92 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- basic page information like it tells  the browser how to read my page and make
-      it fit different screen sizes-->
+    <!-- Firstly a basic page information -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- Here is my page title -->
-<title>about Beauty Within You</title>
-<!-- connect the external css file -->
-<link rel="stylesheet" href="style.css">
+    <!-- my page title -->
+    <title>about beauty within you</title>
+    <!-- connecting the external css file -->
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-
-<!-- page header -->
-<header>
-    <h1>Beauty Within You</h1>
-    <p>beauty starts with understanding your skin.</p>
+    <header class="about-page-header">
+    <h1>about beauty within you</h1>
+    <p>a little more about the idea behind the website.</p>
 </header>
-<!-- main about section -->
-<main>
-    <section class="about">
-        <!-- about my heading and a little detail -->
-        <div class="about-text">
-            <h2>more than beauty, it's self love.</h2>
-       <p>
-                Beauty Within You is a beauty and skincare recommendation
-                website created to help you learn a little more about
-                your skin and discover products that may work for you.
-        </p>
-         <p>
-                With so many beauty and skincare products available,
-                choosing what is right for your skin can sometimes feel
-                confusing.Beauty Within You is designed to make that process
-                easier, more personal, and more enjoyable.
-            </p>
-            <!-- about like why I created and a detail-->
+<nav class="navbar">
+    <a href="index.html">home</a>
+    <a href="skincare.html">skincare</a>
+    <a href="about.html">about</a>
+</nav>
+    <!--my  main page content -->
+    <main>
+        <!-- about section uses flexbox to create the layout -->
+        <section class="about">
+            <!-- about text -->
+            <div class="about-text">
+                <!-- section heading -->
+                <h2>more than beauty, it's self love.</h2>
+                <p>
+                    Beauty Within You is a beauty and skincare recommendation
+                    website created to help you learn a little more about
+                    your skin and discover products that may work for you.
+                </p>
+                <p>
+                    With so many beauty and skincare products available,
+                    choosing what is right for your skin can sometimes feel
+                    confusing. Beauty Within You is designed to make that
+                    process easier, more personal, and more enjoyable.
+                </p>
+                <p>
+                    I created this website because I believe that taking care
+                    of your skin should be about more than just appearance.
+                    It should also be about understanding yourself, feeling
+                    comfortable in your own skin, and building confidence.
+                </p>
+                <p>
+                    My goal is to create a space where you can learn about
+                    your skin, explore beauty recommendations, and eventually
+                    find products that fit your own needs and preferences.
+                    I want Beauty Within You to remind you that you do not
+                    need to change who you are to feel beautiful.
+                </p>
+            </div>
+            <!-- skincare image -->
+            <div class="about-image">
+                <img src="Skinc.jpg" alt="skincare products">
+            </div>
+        </section>
+        <!--  what motivated me section -->
+        <section class="motivation">
+            <h2>why i created beauty within you</h2>
             <p>
-                I created this website because I believe that taking care
-                of your skin should be about more than just appearance.
-                It should also be about understanding yourself, feeling
-                comfortable in your own skin, and building confidence.
+                I was motivated to create Beauty Within You because skincare
+                and beauty can be overwhelming when there are so many choices.
+                Everyone has different skin, different preferences, and
+                different goals.
             </p>
             <p>
-                My goal is to create a space where you can learn about
-                your skin, explore beauty recommendations, and eventually
-                find products that fit your own needs and preferences.
-                i want Beauty Within You to remind you that you do not need to
-                change who you are to feel beautiful.
+                I wanted to create something that focuses on helping people
+                understand their own skin instead of simply telling them
+                what product to buy.
             </p>
-        </div>
-        <!-- Added a small image -->
-        <div class="about-image">
-            <img src="Skinc.jpg" alt="skincare products">
-        </div>
-    </section>
-    <!-- motivation -->
-    <section class="motivation">
-  <h2>why i created Beauty Within You</h2>
-        <p>
-            i was motivated to create Beauty Within You because skincare and
-            beauty can be overwhelming when there are so many choices.
-            everyone has different skin, different preferences, and
-            different goals. i wanted to create something that focuses
-            on helping people understand their own skin instead of
-            simply telling them what product to buy.
-        </p>
-        <p>
-            Beauty Within You is meant to encourage people to learn, explore,
-            and feel more confident about their natural beauty. the
-            website will continue to grow with more recommendations and
-            features that make discovering beauty products easier.
-        </p>
-    </section>
-    <!-- social media section -->
-    <section class="socials">
-        <h2>let's connect</h2>
-        <p>
-            follow along for beauty, skincare, and future Beauty Within You updates.
-        </p>
-        <div class="social-links">
-            <a href="https://www.linkedin.com/in/mouni-sri-n" target="_blank">linkedin</a>
-            <a href="https://github.com/MouniSri039" target="_blank">github</a>
-        </div>
-    </section>
-</main>
-<!--Added a page footer so it looks more as a website -->
-<footer>
-    <p>&copy; 2026 Beauty Within You made with love.</p>
-</footer>
+            <p>
+                Beauty Within You is meant to encourage people to learn,
+                explore, and feel more confident about their natural beauty.
+                The website will continue to grow with more recommendations
+                and features that make discovering beauty products easier.
+            </p>
+        </section>
+        <!--my social media section to connect -->
+        <section class="socials">
+            <h2>let's connect</h2>
+            <p>
+                follow along for beauty, skincare, and future
+                Beauty Within You updates.
+            </p>
+            <!-- social media links -->
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/mouni-sri-n"
+                   target="_blank">
+                    linkedin
+                </a>
+                <a href="https://github.com/MouniSri039"
+                   target="_blank">
+                    github
+                </a>
+            </div>
+        </section>
+    </main>
+    <!-- adding page footer so website looks more put together-->
+    <footer>
+        <p>&copy; 2026 Beauty Within You made with love.</p>
+    </footer>
 </body>
 </html>
